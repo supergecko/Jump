@@ -1,0 +1,147 @@
+body {
+	padding: 0;
+	margin: 0;
+	user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	overflow: hidden;
+	background: url("./img/bg.png") center no-repeat;
+	background-size: cover;
+}
+
+#score {
+	position: absolute;
+	z-index: 999;
+	width: 20px;
+	height: 20px;
+	top: 50px;
+	left: 49%;
+	font-size: 50px;
+	margin: 0 auto;
+	font-family: 微软雅黑;
+	text-align: center;
+	line-height: 20px;
+	font-weight: bold;
+	color: #fff;
+	
+}
+
+.mask {
+	height: 100%;
+	width: 100%;
+	background: rgb(37, 37, 37);
+	position: fixed;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 1000001;
+	opacity: 0.9;
+	font-size: 20px;
+	overflow: hidden;
+}
+.maskWarp{
+	display: none;
+}
+.shareBgText {
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.page {
+	position: absolute;
+	z-index: 99999;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-color: silver;
+	text-align: center;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.midClass {
+	padding: 0;
+	margin: 0;
+	user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	overflow: hidden;
+	background: url("./img/bg.png") center no-repeat;
+	background-size: cover;
+}
+
+.endWarp {
+	padding: 0;
+	margin: 0;
+	user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	overflow: hidden;
+	background: url("./img/bg.png") center no-repeat;
+	background-size: cover;
+}
+
+.showWarp {
+	background: url("./img/show.png");
+	width: 90%;
+	height: 30%;
+	background-size: 100% 100%;
+	position: absolute;
+	top: 20%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.succText {
+	font-size: 26px;
+	margin-top: 18%;
+}
+
+.ImgWarp {
+	top: 17%;
+	position: absolute;
+}
+
+.startBtn {
+	width: 70%;
+	height: 80px;
+	background: url(img/start.png);
+	background-size: 100% 100%;
+	border: 0;
+}
+
+.shareBtn {
+	width: 90%;
+	height: 50px;
+	background: url(img/share.png);
+	background-size: 100% 100%;
+	border: 0;
+	margin-top: 50%;
+}
+
+.scoreNum {
+	font-size: 70px;
+
+}
+
+.restartBtn {
+	width: 70%;
+	height: 70px;
+	background: url(img/restart.png);
+	background-size: 100% 100%;
+	border: 0;
+}
+
+/* .page button{
+  width: 50%;
+  height: 100px;
+} */

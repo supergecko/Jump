@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Jump </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=false">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/three.js/89/three.min.js"></script>
+    <script type="text/javascript" src="js/game.js"></script>
+  </head>
+  <body>
+	<!-- 开始 -->
+    <div class="page startPage midClass">
+    	<div>
+    		<img src="img/bnxd.png" style="width: 80%;"/>
+    	</div>
+        <button type="button" class="startBtn"></button>
+    </div>
+	<!-- 重新开始 -->
+    <div class="page midClass restartPage">
+	  <div>
+		  <img src="img/score.png" style="width: 60%;">
+	  </div>
+	  <div>
+		  <span class="scoreNum"></span>
+	  </div>
+      <button type="button" class="restartBtn"></button>
+    </div>
+	<!-- 结束 -->
+	<div class="page endWarp succesePage">
+		<div class="showWarp">
+			<div class="succText">
+				<p>恭喜您成为第<span class="succeScoreNum"></span>位</p>
+				<p>百年厦大见证者！</p>
+			</div>
+		</div>
+	    <button type="button" class="shareBtn"></button>
+	</div>
+	<div class=" mask maskWarp" id="maskWarp">
+		<img src="img/line.png" style="width: 100px;position: absolute;right: 10px;top: 10px;"/>
+		<div class="shareBgText">点击右上角三个点<br>分享给您的朋友或朋友圈吧</div>
+	</div>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
